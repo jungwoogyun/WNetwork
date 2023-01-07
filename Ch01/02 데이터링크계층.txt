@@ -1,0 +1,22 @@
+1
+역할 : 장치간 운송방식 결정
+
+2
+장치간 식별(LAN : MAC주소 학습 -> ARP Protocol)
+오류 제어(Frame 구조 FCS필드)
+흐름 제어(Flow Control)
+
+3
+LAN : Ethernet -> FEthernet ->GEthernet
+WAN : HDLC / PPP /FR / ATM ...
+
+4
+CSMA/CD
+CS신호 전달 이후 통신유무 확인 한 다음 통신
+충돌영역발생 문제..
+
+5
+이더넷 스위치
+
+
+
