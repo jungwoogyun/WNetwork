@@ -1,0 +1,13 @@
+Routing Protocol
+-정적(관리자가 직접 목적지 방향)
+static	단일목적지 방향
+default 나머지 모든 목적지 방향 ip route 0.0.0.0 0.0.0.0 s0/0
+
+
+-동적(자동으로 전체정보 + 최적경로)
+Rip - Distance(Hop->Loop->Hop제한->소규모) Vector
+Ospf - Link-State(Cost : 10^10 / BW) -> S : 64 , E : 10 FE : 1
+Eigrp - DV(낮은부하) + LS(효율적인 경로 설정,빠른수렴시간)
+        전체경로 학습
+        ->loop -> Hop제한(255홉) -> 중규모
+        ->Cisco 전용 프로토콜 
