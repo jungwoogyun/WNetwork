@@ -1,0 +1,5 @@
+Vlan Mode
+
+Accss Mode(Sw-Host) 		:단일 VLAN 적용
+Trunk Mode(Sw-Sw,Sw-Router) 	: 여러 VLAN 전달
+
