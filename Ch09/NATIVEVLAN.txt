@@ -1,0 +1,5 @@
+Native Vlan
+VLAN을 지원하지 않는 장치(Hub)에서 전달하는 데이터를
+Switch가 수신할때 적용하는 VLAN ID
+Trunk Mode일때 적용
+기본 VLAN ID = 1
